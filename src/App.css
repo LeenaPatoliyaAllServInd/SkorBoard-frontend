@@ -1,8 +1,11 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
+body {
+  font-family: Inter !important;
+  color: #212529 !important;
+}
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +38,67 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.signup-con {
+  form input {
+    margin: 10px;
+  }
+}
+/* input:-internal-autofill-selected {
+  background-color: #fff !important;
+} */
+/* Override input:-internal-autofill-selected styles */
+input:-internal-autofill-selected {
+  appearance: none; /* Reset appearance */
+  background-color: #fff !important; /* Reset background-color */
+  color: initial !important; /* Reset color */
+}
+.labels {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0px 0px 2px 0px;
+  text-align: left;
+}
+input {
+  padding: 8px 12px !important;
+  /* border-color: #dee2e6 !important;
+  border-radius: 6px !important; */
+}
+.css-1fu7jd5-MuiButtonBase-root-MuiButton-root {
+  background-color: #196742 !important;
+  text-transform: capitalize !important;
+  font-size: 1rem !important;
+  font-family: Inter !important;
+}
+.css-1fu7jd5-MuiButtonBase-root-MuiButton-root.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26) !important;
+  box-shadow: none !important;
+  background-color: rgba(0, 0, 0, 0.12) !important;
+}
+
+.css-md26zr-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 6px !important;
+  border-color: #dee2e6 !important;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  border: none !important;
+}
+.common-container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  min-width: 350px;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  position: relative;
+  margin-top: 20px;
+}
+.main-container {
+  min-height: 100vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 20px;
 }
